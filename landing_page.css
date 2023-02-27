@@ -1,0 +1,436 @@
+body{
+    position: relative;
+    width: 375px;
+    height: 3000px;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+button{
+    cursor: pointer;
+    z-index: 1;
+    border: 0;
+}
+
+.skilled{
+position: absolute;
+height: 35px;
+left: 0px;
+right: 74.05%;
+top: 22px;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 35px;
+
+color: #13183F;
+}
+.started{
+  width:140px;
+  height: 48px;
+  position: absolute;
+  top: 16px;
+  right:16px;
+  background: #13183F;
+  border-radius: 28px;  
+  text-align: center;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+.started_1{
+  width:140px;
+  height: 48px;
+  position: absolute;
+  top: 36px;
+  right:16px;
+  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+  border-radius: 28px;  
+  text-align: center;
+  line-height: 28px;
+  align-items: center;
+  display: flex;
+  
+
+}
+h5{
+margin: auto;
+height: 28px;
+width: 92px;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+color: #FFFFFF;
+text-align: center;
+
+
+}
+.maximize{
+    width:343px;
+    height: 101px;
+    position: absolute;
+    left: 16px;
+    top: 102px;
+    display: flex;
+}
+.maxim{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #13183F;
+    margin: 0px;
+}
+.modern_courses{
+    position: absolute;
+    display: flex;
+    width: 343px;
+    height: 78px;
+    top: 229px;
+    left: 16px;
+
+}
+.md_courses{
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #83869A;
+
+}
+.getstarted{
+    position: absolute;
+    display: flex;
+    width: 167px;
+    height: 56px;
+    left: 16px;
+    top: 331px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    text-align: center;
+    align-items: center;
+}
+.start{
+margin: auto;
+width: 92px;
+height: 26px;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.photo{
+    position: absolute;
+    width: 238.72px;
+    height: 329.93px;
+    top: 473px;
+    margin: auto;
+    display: flex;
+}
+.canvas{
+    margin: auto;
+    position: relative;
+}
+#popular_courses{
+    
+    width: 343px;
+    height: 120px;
+    top: 0px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    
+}
+.courses{
+width: 286px;
+height: 64px;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 32px;
+color:#FFFFFF;  
+margin: 0;
+position: absolute;
+top: 24px;
+left: 28px;
+}
+.list_courses{
+    position: relative;
+    width: 375px;
+    height: 1695px;
+    top: 800px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    justify-content:center;
+   align-items: center;
+}
+
+.pop_courses{
+position: relative;
+width: 343px;
+height: 259px;  
+background: #FFFFFF;
+box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+border-radius: 10px;
+margin-bottom: 40px;
+}
+.icon{
+position: absolute;
+top: -24px;
+left:28px;
+width: 56px;
+height: 56px;
+}
+.pop_courses p {
+position: absolute;
+width: 286px;
+height: 78px;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+margin: 0;
+top:97px;
+left:28px;
+color: #83869A;
+}
+.pop{
+position: absolute;
+width: 101px;
+top:56px;
+left:28px;
+height: 25px;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 25px;
+color: #13183F;
+margin: 0;
+}
+
+
+.footer{
+    position: absolute;
+    width: 375px;
+    height: 120px;
+    left: 0;
+    top:2495px;
+    background: #13183F;
+}
+h4{
+    position: absolute;
+    width: 89px;
+    height: 35px;
+    top: 7px;
+    left: 16px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.tablet_ph, .desktop_ph{
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+@media only screen and (min-width:768px)and  (max-width:1440px){
+    body{
+        min-width: 768px;
+        height:   1760px;
+        background-color:#FFFFFF;
+
+    }
+    .skilled{
+        left:39px;
+        top:31px;
+
+    }
+    .started{
+        top:24px;
+        right:40px;
+
+    }
+    .maximize{
+        width:326px;
+        top:171px;
+        left: 39px;
+
+    }
+    .modern_courses{
+        width: 398px;
+        top: 297px;
+        left: 39px;
+    }
+    .photo{
+        opacity: 0;
+    }
+    .tablet_photo{
+        width:342.28px;
+        height: 711.4px;
+        left:425.71px;
+        position: absolute;
+        top:-92.13px ;
+        overflow: hidden;
+
+    }
+    .tablet_ph{
+        opacity: 1;
+        width:639.99px;
+        height:703.53px;
+        position: absolute; 
+    }
+    .getstarted{
+        top: 399px;
+        left:39px;
+    }
+    .list_courses{
+        width: 689px;
+        height: 889px;
+        top: 641px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        position: relative;
+        column-gap: 10px;
+        row-gap: 56px;
+        padding: 24px 40px 86px 39px;
+       
+    }
+    #popular_courses, .pop_courses{
+        width: 339px;
+        height: 259px;
+        margin-bottom: 0px;
+    }
+    .footer{
+        width: 768px;
+        height: 120px;
+        top: 1640px;
+    }
+    h4{
+        top: 43px;
+        left: 40px;
+        margin: 0;
+    }
+    
+    .started_1{
+        right: 39px;
+    }
+   
+}
+@media only screen and (min-width:1440px){
+    body{
+        min-width:1440px;
+        height: 1845px;
+        background-color: #FFFFFF;
+    }
+    .skilled{
+        left:165.79px;
+        top:45.91px;
+
+    }
+    .started{
+        width: 167px;
+        height: 56px;
+        top: 24px;
+        right: 165px;
+    }
+    .maximize{
+        width: 457px;
+        height: 143px;
+        top: 252px;
+        left: 165px;
+    }
+    .modern_courses{
+        width: 445px;
+        height: 84px;
+        left: 165px;
+        top:424px;
+    }
+    .md_courses{
+        margin: 0px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .getstarted{
+        height: 63px;
+        left: 165px;
+        top:548px;
+
+    }
+    .photo{
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+    .desktop_photo{
+        min-width:656px;
+        height: 873.13px;
+        left:784px;
+        position: absolute;
+        top:-146.13px ;
+        overflow: hidden;
+
+    }
+    .desktop_ph{
+        opacity: 1;
+        width:991.63px;
+        height:936.92px;
+        position: absolute; 
+    }
+    .list_courses{
+        width: 1110px;
+        height: 724px;
+        top: 837px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        position: relative;
+        column-gap: 30px;
+        row-gap: 80px;
+        padding: 24px 165px 140px 165px;
+    }
+    #popular_courses, .pop_courses{
+        width: 350px;
+        height: 322px;
+        margin-bottom: 0px;
+    }
+    .courses{
+        height: 120px;
+        font-size: 32px;
+        line-height: 40px;
+        top:64px;
+        left:32px;
+    }
+    .pop_courses p{
+        height: 112px;
+
+    }
+   .footer{
+    width: 1440px;
+    height: 120px;
+    top:1725px;
+   }
+   h4{
+    left:165.79px;
+   }
+   .started_1{
+    width: 167px;
+    height: 56px;
+    top:32px;
+    right:165px;
+   }
+   
+}
+
